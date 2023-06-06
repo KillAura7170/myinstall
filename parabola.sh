@@ -1,5 +1,9 @@
+#! /bin/bash
+
 sudo ufw enable
 sudo rm -rf /config.sh
+user=$(whoami)
+sudo mv /setup.sh /home/$user
 sudo chown killaura setup.sh
 sudo vim /etc/resolv.conf
 sudo vim /etc/pacman.conf
