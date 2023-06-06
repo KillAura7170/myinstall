@@ -4,8 +4,8 @@ sudo rm -rf ~/.bash_profile
 sudo pacman --needed -Syy git xorg-server xorg-xinit xorg-xrandr neofetch htop btop alacritty dmenu i3lock xcompmgr ranger newsboat alsa-lib alsa-utils moc feh mpv iceweasel hexchat tor tor-hardened-preferences networkmanager-hardened-configs iceweasel-hardened-preferences iceweasel-noscript iceweasel-https-everywhere iceweasel-ublock-origin openssh libxft xf86-video-intel
 git clone https://github.com/KillAura7170/dotfiles.git
 cp ~/dotfiles/.bashrc ~
-cp ~/dotfiles/.bash_profile
-cp ~/dotfiles/.xinitrc
+cp ~/dotfiles/.bash_profile ~
+cp ~/dotfiles/.xinitrc ~
 cp -r ~/dotfiles/.config ~
 cp -r ~/dotfiles/.moc ~
 mv ~/dotfiles/* ~
