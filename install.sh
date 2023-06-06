@@ -13,7 +13,7 @@ mount /dev/system/root /mnt
 mkdir /mnt/boot
 pacstrap -K /mnt base base-devel
 pacstrap -K /mnt linux linux-firmware linux-headers
-pacstrap -K /mnt dnscrypt-proxy vim networkmanager ufw
+pacstrap -K /mnt dnscrypt-proxy vim networkmanager ufw lvm2
 genfstab -U /mnt >> /mnt/etc/fstab
 mv config.sh /mnt
 mv parabola.sh /mnt
