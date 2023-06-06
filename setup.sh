@@ -23,6 +23,7 @@ git clone https://github.com/KillAura7170/dwm.git
 mkdir ~/.local
 mkdir ~/.local/bin
 mv ~/dwm ~/.suckless/
+chmod +x ~/suckless/dwm/smci.sh
 ~/.suckless/dwm/smci.sh
 git clone https://github.com/KillAura7170/scripts.git
 mv ~/scripts ~/.suckless/
