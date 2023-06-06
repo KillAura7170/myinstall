@@ -1,6 +1,5 @@
 sudo ufw enable
 sudo rm -rf /config.sh
-sudo mv /setup.sh ~
 sudo chown killaura setup.sh
 sudo vim /etc/resolv.conf
 sudo vim /etc/pacman.conf
