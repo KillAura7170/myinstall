@@ -1,8 +1,9 @@
 sudo rm -rf /parabola.sh
 sudo rm -rf ~/.bashrc
 sudo rm -rf ~/.bash_profile
-sudo pacman --needed -Syy git xorg-server xorg-xinit xorg-xrandr neofetch htop btop alacritty dmenu i3lock xcompmgr ranger newsboat alsa-lib alsa-utils moc feh mpv iceweasel hexchat tor tor-hardened-preferences networkmanager-hardened-configs iceweasel-hardened-preferences iceweasel-noscript iceweasel-https-everywhere iceweasel-ublock-origin openssh libxft xf86-video-intel noto-fonts noto-fonts-emoji youtube-dl yt-dlp w3m zathura zathura-djvu zathura-pdf-poppler zathura-ps ueberzug aisleriot
+sudo pacman --needed -Syy git xorg-server xorg-xinit xorg-xrandr neofetch htop btop alacritty dmenu i3lock xcompmgr ranger newsboat alsa-lib alsa-utils moc feh mpv iceweasel hexchat tor tor-hardened-preferences networkmanager-hardened-configs iceweasel-hardened-preferences iceweasel-noscript iceweasel-https-everywhere iceweasel-ublock-origin openssh libxft xf86-video-intel noto-fonts noto-fonts-emoji youtube-dl yt-dlp w3m zathura zathura-djvu zathura-pdf-poppler zathura-ps ueberzug aisleriot xorg-xprop xorg-xwininfo xdotool
 git clone https://github.com/KillAura7170/dotfiles.git
+git clone https://github.com/noctuid/tdrop.git
 cp ~/dotfiles/.bashrc ~
 cp ~/dotfiles/.bash_profile ~
 cp ~/dotfiles/.xinitrc ~
@@ -18,6 +19,8 @@ mkdir ~/PDF
 mkdir ~/coding
 mkdir ~/usb
 mkdir ~/key
+mv ~/tdrop ~/.suckless/
+cp ~/.suckless/tdrop/tdrop ~/.local/bin/
 git clone https://github.com/KillAura7170/libreboot.git
 git clone https://github.com/KillAura7170/dwm.git
 mkdir ~/.local
