@@ -21,11 +21,11 @@ mkdir ~/usb
 mkdir ~/key
 cp -r ~/tdrop ~/.suckless/
 rm -rf ~/tdrop
-cp ~/.suckless/tdrop/tdrop ~/.local/bin/
 git clone https://github.com/KillAura7170/libreboot.git
 git clone https://github.com/KillAura7170/dwm.git
 mkdir ~/.local
 mkdir ~/.local/bin
+cp ~/.suckless/tdrop/tdrop ~/.local/bin/
 mv ~/dwm ~/.suckless/
 chmod +x ~/suckless/dwm/smci.sh
 ~/.suckless/dwm/smci.sh
