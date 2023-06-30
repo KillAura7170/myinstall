@@ -19,7 +19,8 @@ mkdir ~/PDF
 mkdir ~/coding
 mkdir ~/usb
 mkdir ~/key
-mv ~/tdrop ~/.suckless/
+cp -r ~/tdrop ~/.suckless/
+rm -rf ~/tdrop
 cp ~/.suckless/tdrop/tdrop ~/.local/bin/
 git clone https://github.com/KillAura7170/libreboot.git
 git clone https://github.com/KillAura7170/dwm.git
